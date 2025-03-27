@@ -1,47 +1,29 @@
-import { Injectable } from '@nestjs/common';
-import { Telegraf } from 'telegraf';
-import { Message } from 'telegraf/typings/core/types/typegram';
+import { Injectable, OnModuleInit } from '@nestjs/common';
+import { Telegraf, Scenes, session } from 'telegraf';
+import * as dotenv from 'dotenv';
+import { WorkoutScene } from './scenes/workout.scene';
+import { BotContext } from '../types/telegraf.context';
+
+dotenv.config();
 
 @Injectable()
-export class TelegramService {
-  private bot: Telegraf;
+export class TelegramService implements OnModuleInit {
+  private bot!: Telegraf<BotContext>;
 
-  constructor() {
-    const token = process.env.BOT_TOKEN;
-    if (!token) {
-      throw new Error('❌ BOT_TOKEN не задан в .env');
-    }
+  async onModuleInit(): Promise<void> {
+    const token = process.env.TELEGRAM_BOT_TOKEN;
+    if (!token) throw new Error('TELEGRAM_BOT_TOKEN не задан');
 
-    this.bot = new Telegraf(token);
+    const workoutScene = new WorkoutScene();
+    const stage = new Scenes.Stage<BotContext>([workoutScene]);
 
-    // Команда /start
-    this.bot.start((ctx) => {
-      console.log(`📥 /start от ${ctx.from.username || ctx.from.id}`);
-      ctx.reply('👋 Hello from NestJS bot');
-    });
+    this.bot = new Telegraf<BotContext>(token);
+    this.bot.use(session());
+    this.bot.use(stage.middleware());
 
-    // Команда /ping
-    this.bot.command('ping', (ctx) => {
-      console.log(`📥 /ping от ${ctx.from.username || ctx.from.id}`);
-      ctx.reply('🏓 pong');
-    });
+    this.bot.command('start', (ctx) => ctx.scene.enter('workoutScene'));
 
-    // Ловим все сообщения
-    this.bot.on('message', (ctx) => {
-      const msg = ctx.message as Message;
-      const from = ctx.from?.username || ctx.from?.id;
-
-      if ('text' in msg) {
-        console.log(`💬 Текст от ${from}: ${msg.text}`);
-      } else {
-        console.log(`📎 Не-текстовое сообщение от ${from}`);
-      }
-    });
-  }
-
-  async launch() {
-    console.log('🤖 bot.launch()...');
     await this.bot.launch();
-    console.log('✅ bot запущен');
+    console.log('🤖 Бот запущен');
   }
 }

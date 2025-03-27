@@ -1,4 +1,5 @@
 import * as dotenv from 'dotenv';
+
 dotenv.config();
 
 import { NestFactory } from '@nestjs/core';
@@ -10,11 +11,9 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   console.log('✅ Nest приложение создано');
 
-  const telegramService = app.get(TelegramService);
   console.log('🤖 TelegramService получен');
 
   try {
-    await telegramService.launch();
     console.log('✅ Telegram бот запущен');
   } catch (error) {
     console.error('❌ Ошибка запуска Telegram бота:', error);
@@ -24,4 +23,5 @@ async function bootstrap() {
   await app.listen(port);
   console.log(`🚀 Приложение доступно по адресу: http://localhost:${port}`);
 }
+
 void bootstrap();

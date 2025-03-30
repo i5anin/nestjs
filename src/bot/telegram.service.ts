@@ -11,8 +11,8 @@ export class TelegramService implements OnModuleInit {
   private bot!: Telegraf<BotContext>;
 
   async onModuleInit(): Promise<void> {
-    const token = process.env.TELEGRAM_BOT_TOKEN;
-    if (!token) throw new Error('TELEGRAM_BOT_TOKEN не задан');
+    const token = process.env.BOT_TOKEN;
+    if (!token) throw new Error('BOT_TOKEN не задан');
 
     const workoutScene = new WorkoutScene();
     const stage = new Scenes.Stage<BotContext>([workoutScene]);

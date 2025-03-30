@@ -1,6 +1,6 @@
 import 'telegraf';
-import { SceneSessionData } from './types/telegraf.context';
+import { SceneSession } from './telegraf.context';
 
 declare module 'telegraf' {
-  interface SessionData extends SceneSessionData {}
+  interface SessionData extends SceneSession {}
 }

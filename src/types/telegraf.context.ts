@@ -15,15 +15,14 @@ export interface TrainingData {
   barbellWeight: number;
 }
 
-// ✅ Это SessionData, как требует Telegraf
-export interface SessionData {
+export interface SessionData extends Scenes.SceneSessionData {
   data: Partial<TrainingData>;
   currentSet: number;
 }
 
 // ✅ Полный контекст
 export interface BotContext extends Context<Update> {
-  session: SessionData;
+  session: Scenes.SceneSession<SessionData> & SessionData;
   scene: Scenes.SceneContextScene<BotContext>;
   wizard: Scenes.WizardContextWizard<BotContext>;
 }

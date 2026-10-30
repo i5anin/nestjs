@@ -1,0 +1,1225 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "nestjs",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:nestjs",
+      "type": "project",
+      "name": "nestjs"
+    },
+    {
+      "id": "project:nestjs/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "4468d67b5643924d0b3bbae98caf219a16f83693fa2ad1b845d1001c44205f4c",
+      "bytes": 1543
+    },
+    {
+      "id": "project:nestjs/file:doc/config.js",
+      "type": "file",
+      "path": "doc/config.js",
+      "sha256": "25d1d8dfdeb4c10397f8d04489aff20d5bbc4b5529d3053ca9b84ff0f3077bf8",
+      "bytes": 2082
+    },
+    {
+      "id": "project:nestjs/file:doc/fileStats.js",
+      "type": "file",
+      "path": "doc/fileStats.js",
+      "sha256": "17c55445436d2abca8efea6a747ad982c5e73b7e89c3b35c4f77da715a8ebd28",
+      "bytes": 673
+    },
+    {
+      "id": "project:nestjs/file:doc/generate-readme.js",
+      "type": "file",
+      "path": "doc/generate-readme.js",
+      "sha256": "579fb1f626bc15771ebce932fa277c78faa97e96e6df974157a25d7c62e99c7e",
+      "bytes": 2652
+    },
+    {
+      "id": "project:nestjs/file:doc/package.json",
+      "type": "file",
+      "path": "doc/package.json",
+      "sha256": "1bf0e53fc74b05f1aade7451fbac72f1944b067d4229d96bae7a225519a250e4",
+      "bytes": 26
+    },
+    {
+      "id": "project:nestjs/file:doc/paths.js",
+      "type": "file",
+      "path": "doc/paths.js",
+      "sha256": "fba0cb7e521535a368cff6447e0baca9a2fa705bcbf0864f228980c1e37cb1ca",
+      "bytes": 408
+    },
+    {
+      "id": "project:nestjs/file:doc/projectConfig.js",
+      "type": "file",
+      "path": "doc/projectConfig.js",
+      "sha256": "3f4948aa2aef01b87691e79e63879c7bcbec2e71498158f83c996bac5f66e60b",
+      "bytes": 609
+    },
+    {
+      "id": "project:nestjs/file:doc/treeBuilder.js",
+      "type": "file",
+      "path": "doc/treeBuilder.js",
+      "sha256": "f981276c364e2daf2a819ec2bbc550206813bf0758fc5f8a72edd4c08057b39c",
+      "bytes": 3749
+    },
+    {
+      "id": "project:nestjs/file:eslint.config.mjs",
+      "type": "file",
+      "path": "eslint.config.mjs",
+      "sha256": "96c623b5939a0745254d7f66e3d19d1baa4133e2c9b13822c75c362ced7abece",
+      "bytes": 856
+    },
+    {
+      "id": "project:nestjs/file:github/github/COMMIT_TEMPLATE.md",
+      "type": "file",
+      "path": "github/github/COMMIT_TEMPLATE.md"
+    },
+    {
+      "id": "project:nestjs/file:github/github/commit_report.md",
+      "type": "file",
+      "path": "github/github/commit_report.md"
+    },
+    {
+      "id": "project:nestjs/file:github/github/git-changes-report.common.js",
+      "type": "file",
+      "path": "github/github/git-changes-report.common.js",
+      "sha256": "ddac2abbe0bfe1f0218da2bb3437bf9d899ed351f354d576ab6f64280ca16dd5",
+      "bytes": 1303
+    },
+    {
+      "id": "project:nestjs/file:github/github/git-changes-report.module.js",
+      "type": "file",
+      "path": "github/github/git-changes-report.module.js",
+      "sha256": "eb85a357c7d082c7e06a23ae4262eaf258e5ec4969d1223cb068f9b792f516c1",
+      "bytes": 1789
+    },
+    {
+      "id": "project:nestjs/file:github/list-files/list-files.js",
+      "type": "file",
+      "path": "github/list-files/list-files.js",
+      "sha256": "72f2b15ae97e4dc2839cc080acda0b14b0e3fee3cccbc059a07315787c0aedd9",
+      "bytes": 4385
+    },
+    {
+      "id": "project:nestjs/file:github/tree/gen-dir-tree.common.js",
+      "type": "file",
+      "path": "github/tree/gen-dir-tree.common.js",
+      "sha256": "b4c04229786db315c9efd3091a45b94c21a33a0a4ad89d7d413b976bee379bf3",
+      "bytes": 1692
+    },
+    {
+      "id": "project:nestjs/file:github/tree/gen-dir-tree.module.js",
+      "type": "file",
+      "path": "github/tree/gen-dir-tree.module.js",
+      "sha256": "4174840a5439f4c61ec7a726a1f952e3bb227ec8844b93dca1e14b63fc896dff",
+      "bytes": 1671
+    },
+    {
+      "id": "project:nestjs/file:package.json",
+      "type": "file",
+      "path": "package.json",
+      "sha256": "defbb98dc3f30691c820e7cc9c9e5d9abd1f5410a49c4715806275fc5a100bd2",
+      "bytes": 2090
+    },
+    {
+      "id": "project:nestjs/file:src/app.controller.spec.ts",
+      "type": "file",
+      "path": "src/app.controller.spec.ts",
+      "sha256": "88faf5523fd7f5dae5a6c78be2dd1709eb6c20ee82c64fc399f8a2e8fb767527",
+      "bytes": 617
+    },
+    {
+      "id": "project:nestjs/file:src/app.controller.ts",
+      "type": "file",
+      "path": "src/app.controller.ts",
+      "sha256": "260f889b9e2b69f77be1155348eb345166aec664b3efff6720053c6844a41f28",
+      "bytes": 274
+    },
+    {
+      "id": "project:nestjs/file:src/app.module.ts",
+      "type": "file",
+      "path": "src/app.module.ts",
+      "sha256": "11713cd0555bc83e86eec1ed067fae08da0a0bf509c0cfdfdb0833cd5992652a",
+      "bytes": 324
+    },
+    {
+      "id": "project:nestjs/file:src/app.service.ts",
+      "type": "file",
+      "path": "src/app.service.ts",
+      "sha256": "eaf8514ce110fa428a93a27408df4d06d133dbd9ed0a775c315ddfdd507853a9",
+      "bytes": 142
+    },
+    {
+      "id": "project:nestjs/file:src/bot/scenes/workout.scene.ts",
+      "type": "file",
+      "path": "src/bot/scenes/workout.scene.ts",
+      "sha256": "3d7655dc86e13b42dec8b9498cd046855fc70285e2671040c0b2ee3e6793a415",
+      "bytes": 4351
+    },
+    {
+      "id": "project:nestjs/file:src/bot/telegram.module.ts",
+      "type": "file",
+      "path": "src/bot/telegram.module.ts",
+      "sha256": "fd8d409c137606f68652d0f03e8a4d631f5f0aa03eaf14d3989ad1833f25372b",
+      "bytes": 172
+    },
+    {
+      "id": "project:nestjs/file:src/bot/telegram.service.ts",
+      "type": "file",
+      "path": "src/bot/telegram.service.ts",
+      "sha256": "3cccd2c85ab850ff1e6687b1ca04d19fcd5dc87abe248fa35b8f865434c3004a",
+      "bytes": 911
+    },
+    {
+      "id": "project:nestjs/file:src/bot/utils/constants.ts",
+      "type": "file",
+      "path": "src/bot/utils/constants.ts",
+      "sha256": "da62237531a4c8bc6c2720810f338b0d75da610504e2d2b6964bae46d43ad599",
+      "bytes": 616
+    },
+    {
+      "id": "project:nestjs/file:src/main.ts",
+      "type": "file",
+      "path": "src/main.ts",
+      "sha256": "11d406b399d904e020b421fffcdfc6f64566273b21b6adecefa561f1a9c5ff36",
+      "bytes": 823
+    },
+    {
+      "id": "project:nestjs/file:src/types/session-context.d.ts",
+      "type": "file",
+      "path": "src/types/session-context.d.ts",
+      "sha256": "e13647a58d2dfec2ef7647120ddaa722edc47d22250d872ed3dafd1f0ba57e3e",
+      "bytes": 149
+    },
+    {
+      "id": "project:nestjs/file:src/types/telegraf.context.ts",
+      "type": "file",
+      "path": "src/types/telegraf.context.ts",
+      "sha256": "746fc2f93b8d4fd3d161753164d374dd8747674ff8a55a761c35a51f9c68b4fd",
+      "bytes": 708
+    },
+    {
+      "id": "project:nestjs/file:test/app.e2e-spec.ts",
+      "type": "file",
+      "path": "test/app.e2e-spec.ts",
+      "sha256": "ad4c99e5c5e2d71b01c8dfeb5513e8290b7a1b108471da0e8118f35b13b78a4c",
+      "bytes": 674
+    },
+    {
+      "id": "package:npm:@nestjs/common",
+      "type": "package",
+      "name": "@nestjs/common",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/core",
+      "type": "package",
+      "name": "@nestjs/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/platform-express",
+      "type": "package",
+      "name": "@nestjs/platform-express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:dotenv",
+      "type": "package",
+      "name": "dotenv",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:reflect-metadata",
+      "type": "package",
+      "name": "reflect-metadata",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:rxjs",
+      "type": "package",
+      "name": "rxjs",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:telegraf",
+      "type": "package",
+      "name": "telegraf",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@eslint/eslintrc",
+      "type": "package",
+      "name": "@eslint/eslintrc",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@eslint/js",
+      "type": "package",
+      "name": "@eslint/js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/cli",
+      "type": "package",
+      "name": "@nestjs/cli",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/schematics",
+      "type": "package",
+      "name": "@nestjs/schematics",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/testing",
+      "type": "package",
+      "name": "@nestjs/testing",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@swc/cli",
+      "type": "package",
+      "name": "@swc/cli",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@swc/core",
+      "type": "package",
+      "name": "@swc/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/express",
+      "type": "package",
+      "name": "@types/express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/jest",
+      "type": "package",
+      "name": "@types/jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/node",
+      "type": "package",
+      "name": "@types/node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/supertest",
+      "type": "package",
+      "name": "@types/supertest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-config-prettier",
+      "type": "package",
+      "name": "eslint-config-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-prettier",
+      "type": "package",
+      "name": "eslint-plugin-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:globals",
+      "type": "package",
+      "name": "globals",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:jest",
+      "type": "package",
+      "name": "jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:source-map-support",
+      "type": "package",
+      "name": "source-map-support",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:supertest",
+      "type": "package",
+      "name": "supertest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-jest",
+      "type": "package",
+      "name": "ts-jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-loader",
+      "type": "package",
+      "name": "ts-loader",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-node",
+      "type": "package",
+      "name": "ts-node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:tsconfig-paths",
+      "type": "package",
+      "name": "tsconfig-paths",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript-eslint",
+      "type": "package",
+      "name": "typescript-eslint",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:doc/config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:doc/fileStats.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/fileStats.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:doc/generate-readme.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/generate-readme.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:doc/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:doc/paths.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/paths.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:doc/projectConfig.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/projectConfig.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:doc/treeBuilder.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/treeBuilder.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:eslint.config.mjs",
+      "relation": "contains",
+      "evidence": {
+        "path": "eslint.config.mjs"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:github/github/COMMIT_TEMPLATE.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/github/COMMIT_TEMPLATE.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:github/github/commit_report.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/github/commit_report.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:github/github/git-changes-report.common.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/github/git-changes-report.common.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:github/github/git-changes-report.module.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/github/git-changes-report.module.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:github/list-files/list-files.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/list-files/list-files.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:github/tree/gen-dir-tree.common.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/tree/gen-dir-tree.common.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:github/tree/gen-dir-tree.module.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/tree/gen-dir-tree.module.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/app.controller.spec.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app.controller.spec.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/app.controller.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app.controller.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/app.module.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app.module.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/app.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/bot/scenes/workout.scene.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/bot/scenes/workout.scene.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/bot/telegram.module.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/bot/telegram.module.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/bot/telegram.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/bot/telegram.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/bot/utils/constants.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/bot/utils/constants.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/main.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/main.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/types/session-context.d.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/types/session-context.d.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:src/types/telegraf.context.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/types/telegraf.context.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs",
+      "target": "project:nestjs/file:test/app.e2e-spec.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "test/app.e2e-spec.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:nestjs/file:doc/generate-readme.js",
+      "target": "project:nestjs/file:doc/paths.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:doc/generate-readme.js",
+      "target": "project:nestjs/file:doc/treeBuilder.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:doc/generate-readme.js",
+      "target": "project:nestjs/file:doc/fileStats.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:doc/generate-readme.js",
+      "target": "project:nestjs/file:doc/projectConfig.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:doc/treeBuilder.js",
+      "target": "project:nestjs/file:doc/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/treeBuilder.js",
+        "line": 9
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/app.controller.spec.ts",
+      "target": "project:nestjs/file:src/app.controller.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app.controller.spec.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/app.controller.spec.ts",
+      "target": "project:nestjs/file:src/app.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app.controller.spec.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/app.controller.ts",
+      "target": "project:nestjs/file:src/app.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app.controller.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/app.module.ts",
+      "target": "project:nestjs/file:src/app.controller.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app.module.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/app.module.ts",
+      "target": "project:nestjs/file:src/app.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app.module.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/app.module.ts",
+      "target": "project:nestjs/file:src/bot/telegram.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app.module.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/main.ts",
+      "target": "project:nestjs/file:src/app.module.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/main.ts",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/main.ts",
+      "target": "project:nestjs/file:src/bot/telegram.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/main.ts",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:test/app.e2e-spec.ts",
+      "target": "project:nestjs/file:src/app.module.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "test/app.e2e-spec.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/bot/telegram.module.ts",
+      "target": "project:nestjs/file:src/bot/telegram.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/bot/telegram.module.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/bot/telegram.service.ts",
+      "target": "project:nestjs/file:src/bot/scenes/workout.scene.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/bot/telegram.service.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/bot/telegram.service.ts",
+      "target": "project:nestjs/file:src/types/telegraf.context.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/bot/telegram.service.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/types/session-context.d.ts",
+      "target": "project:nestjs/file:src/types/telegraf.context.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/types/session-context.d.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/bot/scenes/workout.scene.ts",
+      "target": "project:nestjs/file:src/bot/utils/constants.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/bot/scenes/workout.scene.ts",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:src/bot/scenes/workout.scene.ts",
+      "target": "project:nestjs/file:src/types/telegraf.context.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/bot/scenes/workout.scene.ts",
+        "line": 9
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@nestjs/common",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@nestjs/core",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@nestjs/platform-express",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:dotenv",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:reflect-metadata",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:rxjs",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 28
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:telegraf",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@eslint/eslintrc",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@eslint/js",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 33
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@nestjs/cli",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 34
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@nestjs/schematics",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 35
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@nestjs/testing",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 36
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@swc/cli",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@swc/core",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@types/express",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@types/jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 41
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:@types/supertest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 42
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 43
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 44
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:eslint-plugin-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 45
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:globals",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 46
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 48
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:source-map-support",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 49
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:supertest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 50
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:ts-jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 51
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:ts-loader",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 52
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:ts-node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 53
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:tsconfig-paths",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 54
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 55
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:nestjs/file:package.json",
+      "target": "package:npm:typescript-eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 56
+      },
+      "method": "manifest"
+    }
+  ]
+}
